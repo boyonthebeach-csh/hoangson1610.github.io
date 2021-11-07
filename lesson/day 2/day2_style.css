@@ -1,0 +1,19 @@
+    p,h1  {
+        text-align: center;
+    }
+    p   {
+        color: orange;
+    }
+    h1  {
+        color: plum;
+    }
+    h2  {
+        color: greenyellow;
+    }
+    #hd2    {
+        color: black;
+        font-size: 50px;
+    }
+
+
+
