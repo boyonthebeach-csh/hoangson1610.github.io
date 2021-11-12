@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    /* background-color: bisque; */
+    top: 100px;
+    left: 550px;
+    font-family: 'Roboto', sans-serif;
+    box-shadow: 0 0 2px black;
+}
+
+img {
+    width: 300px;
+    height: 170px;
+}
+
+.image  {
+    position: relative;
+    width: 300px;
+    height: 170px;
+    transition: height 0.5s linear;
+    overflow: hidden;
+}
+
+.categorize {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: hsl(2deg 78% 58%);
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #ffff;
+    font-size: .8rem;
+}
+p.day {
+    font-size: 1.2rem;
+}
+
+.date   {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: hsl(2deg 78% 58%);
+    text-align: center;
+    padding: 6px 10px;
+    border-radius: 50%;
+    font-weight: bold;
+    color: #ffff;
+    font-size: .8rem;
+}
+
+.content {
+    background-color: #ffff;
+    padding: 10px;
+    height: 180px;
+    position: relative;
+    transition: height 0.5s linear;
+}
+.text p  {
+    color: hsl(2deg 78% 58%);
+}
+.text h2  {
+    line-height: 2;
+}
+.icon {
+    position: absolute;
+    bottom: 10px;
+    color: gray;
+    /* background-color: chartreuse; */
+}
+
+.body-text  {
+    position: absolute;
+    width: 300px;
+    height: 120px;
+    /* background-color: cornflowerblue; */
+    bottom: 31px;
+    overflow: hidden;
+}
+.body-text-content   {
+    /* background-color: blueviolet;   */
+    position: absolute;
+    font-size: .9rem;
+    color: gray;
+    width: 300px;
+    padding: 14px 10px;
+    bottom: -153px;
+    transition: all 0.5s linear;
+}
+.card:hover .body-text-content  {
+    bottom: 0px;
+    overflow: hidden;
+}
+img {
+    transition: all 0.5s linear;
+}
+.card:hover img {
+    filter: brightness(70%);
+    width: 320px;
+    height: 181.33px;
+}
+.card:hover .image  {
+    height: 100px;
+}
+.card:hover .content {
+    height: 250px;
+}
+
+/* .test    {
+    position: relative;
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+}
+.context {
+    position: absolute;
+    bottom: -100px;
+    transition: all 0.7s linear;
+}
+div.test:hover .context {
+    bottom: 150px;
+    overflow: hidden;
+} */
