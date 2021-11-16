@@ -1,0 +1,168 @@
+*   {
+    margin: 0;
+    padding: 0;
+}
+
+/* Jumping Text */
+.card	{
+	/* background-color: bisque; */
+	font-family: 'Estonia', cursive;
+	width: 600px;
+	height: 500px;
+	border-radius: 50%;
+	position: relative;
+	top: 0px;
+	left: 50px;
+	-webkit-font-smoothing: antialiased;
+}
+
+.text	{
+	position: absolute;
+	width: 300px;
+	font-size: 1.8rem;
+	font-weight: bold;
+	top: 130px;
+	left: 150px;
+}
+
+.name	{
+	position: absolute;
+	right: 15px;
+}
+
+h1	{
+	position: absolute;
+	top: 40px;
+	width: 600px;
+	text-align: center;
+	font-size: 50px;
+	height: 100px;
+	/* background-color: red; */
+}
+
+h1 span	{
+	position: relative;
+    top: 20px;
+    display: inline-block;
+    animation: bounce .3s ease infinite alternate;
+}
+
+  h1 span:nth-child(2) { animation-delay: .1s; }
+  h1 span:nth-child(3) { animation-delay: .2s; }
+  h1 span:nth-child(4) { animation-delay: .3s; }
+  h1 span:nth-child(5) { animation-delay: .4s; }
+  h1 span:nth-child(6) { animation-delay: .5s; }
+  h1 span:nth-child(7) { animation-delay: .6s; }
+  h1 span:nth-child(8) { animation-delay: .7s; }
+  h1 span:nth-child(9) { animation-delay: .8s; }
+  h1 span:nth-child(10) { animation-delay: .9s; }
+  h1 span:nth-child(11) { animation-delay: .8s; }
+  h1 span:nth-child(12) { animation-delay: .7s; }
+  h1 span:nth-child(13) { animation-delay: .6s; }
+  h1 span:nth-child(14) { animation-delay: .5s; }
+  h1 span:nth-child(15) { animation-delay: .4s; }
+
+@keyframes bounce {
+
+	100%	{
+		top: 10px;
+	}
+	
+}
+
+/* Snowfall Effects */
+.snowfall {
+    background: url(./christmas_background.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+}
+
+.snow1  {
+    background: url(./snowfall.png);
+    background-repeat: repeat;
+    width: 100%;
+    height: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation-delay: 5s;
+    animation: animationOne 10s infinite linear;
+    
+}
+
+/* HeartBeat */
+
+@keyframes animationOne {
+    0% {
+        background-position: 0px 0px;
+    }
+    100% {
+        background-position: 100px 650px;
+    } 
+}
+
+.heart_beat	{
+	position: absolute;
+	bottom: 10%;
+	left: 48%;
+}
+
+.heart.one{
+    background-color:#4387bf;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    animation: beat 2s infinite;
+	bottom: -20%;
+	left: 47%;
+}
+.heart.two{
+    background-color:#4387bf;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    animation: beat 2s infinite;
+	bottom: -20%;
+	left: 32%;
+}
+.heart.three{
+    background-color:#4387bf;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    transform: rotate(45deg);
+    animation: beat 2s infinite;
+	bottom: -20%;
+	left: 61%;
+}
+@keyframes beat {
+    50%{
+        transform: rotate(45deg) scale(1.2);
+    }
+}
+
+.heart-l{
+    background-color: #4387bf;
+    height: 20px;
+    width: 22px;
+    position: relative;
+    bottom: 20px;
+    right: 2px;
+    border-radius: 40px 40px 0px 0px;
+}
+.heart-r{
+    background-color:#4387bf;
+    height: 20px;
+    width: 22px;
+    position: relative;
+    bottom: 21px;
+    right: 21px;
+    border-radius: 40px 40px 0px 0px;
+    transform: rotate(-90deg);
+}
+
