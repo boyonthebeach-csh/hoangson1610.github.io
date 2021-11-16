@@ -1,0 +1,351 @@
+*   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.blog   {
+    /* position: relative; */
+    /* height: 2600px; */
+    width: 1317px;
+    margin: auto;
+    /* background-color: bisque; */
+}
+
+.title  {
+    /* background-color: white; */
+    width: 100%;
+    height: 265px;
+    line-height: 1.75;
+    margin-top: 47.25px;
+    margin-bottom: 31.5px;
+    padding: 0 31.5px;
+    text-align: center;
+}
+
+/* title text */
+.image img  {
+    width: 80px;
+    height: 80px;
+}
+.title  a   {
+    text-decoration: none;
+}
+.text h1  {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+.text p {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+}
+.text a {
+    color: black;
+}
+
+/* body-content */
+.body-content  {
+    padding: 20px 0 20px 0px;
+    margin-right: 264px;
+}
+.body-content.two{
+    border-top: 1.25px solid gray;
+}
+.body-content a {
+    text-decoration: none;
+    color: black;
+}
+.body-content .entry-meta span    {
+    color: #b3b3b1;
+    padding-right: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+}
+.body-content .entry-meta a {
+    color: #b3b3b1;
+}
+.body-content .entry-meta a:hover {
+    color: #005a87;
+    text-decoration: underline;
+}
+.body-content h1.entry-title    {
+    font-size: 47px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.body-content p {
+    display: block;
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.75;
+
+}
+.entry-content a.more-link {
+    display: block;
+    width: 160px;
+    height: 44px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    margin: 0.4375em 0 1.75em;
+    border: 1px solid transparent;
+    padding: 7px 14px;
+    background-color: #4387bf;
+    color: white;
+    border-radius: 4px;
+    text-align: center;
+}
+a.more-link:hover   {
+    background-color: gray;
+}
+
+/* icon */
+.icon   {
+    padding: 27px 0;
+}
+.icon a {
+    font-size: 28px;
+    color: grey;
+    padding: 0 10px;
+}
+.icon a:hover   {
+    color: black;
+}
+
+/* content */
+.content    {
+    position: relative;
+    width: 1317px;
+    padding: 20px 150px 0px; 
+    margin-top: 31.5px;
+}
+
+.body-content   {
+    width: 740px;
+    margin-top: 31.5px;
+}
+
+/* aside */
+
+.sub-infor   {
+    position: absolute;
+    width: 220px;
+    /* height: 600px; */
+    /* background-color:red; */
+    top: 40px;
+    right: 150px;
+    padding-top: 60px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.sub-infor a {
+    text-decoration: none;
+    color: #4387bf;
+    font-weight: 600;
+}
+.search {
+    padding-bottom: 40px;
+}
+.search input   {
+    height: 30px;
+    width: 220px;
+}
+.search h1 {
+    padding-bottom: 8px;
+    width: 220px; 
+}
+
+aside.facebook  {
+    position: relative;
+    width: 220px;
+    height: 160px;
+    overflow: hidden;
+}
+
+img._background {
+    position: absolute;
+    top: 0px;
+    max-width: 100%;
+    filter: brightness(60%);
+}
+img._avatar {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 54px;
+    height: 54px;
+}
+
+div.sub-facebook {
+    position: absolute;
+    top: 8px;
+    left: 65px;
+    color: white;
+}
+.sub-facebook a {
+    color: white;
+}
+
+div.like {
+    position: absolute;
+    bottom: 4px;
+    left: 4px;
+    transition: all 1s linear;
+}
+.like a {
+    display: inline-block;
+}
+.like button {
+    height: 28px;
+    width: 64px;
+    border-radius: 4px;
+}
+div.like:hover {
+    filter: brightness(80%);
+}
+
+div.messenger {
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+    transition: all 1s linear;
+}
+.messenger a {
+    display: inline-block;
+}
+.messenger button   {
+    height: 28px;
+    width: 110px;
+    border-radius: 4px;
+}
+div.messenger:hover {
+    filter: brightness(80%);
+}
+
+aside.form  {
+    padding-top: 40px;
+    line-height: 30px;
+}
+.form input {
+    height: 30px;
+    width: 220px;
+}
+.form .follow {
+    margin-top: 20px;
+    height: 60px;
+    width: 160px;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #0087be;
+}
+.form .follow:hover {
+    background-color: gray;
+}
+
+aside.top-posts {
+    padding-top: 60px;
+}
+
+.child-ul {
+    padding-top: 10px;
+    padding-left: 20px;
+    display: block;
+}
+h1,li {
+    padding-top: 10px;
+}
+ul  {
+    list-style-type: none;
+}
+.categories ul {
+    padding-left: 20px;
+}
+.child {
+    padding-top: 10px;
+    display: block;
+}
+
+
+
+
+/* footer */
+
+.footer {
+    /* position: absolute; */
+    /* background-color: blue; */
+    /* bottom: 0; */
+    width: 1317px;
+    padding: 31.5px 150px 0px;
+    margin-top: 31.5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.body-text ._block  {
+    display: block;
+}
+.contact  h3    {
+    font-family: 'Open Sans', sans-serif;
+}
+.contact  a  {
+    display: inline-block;
+    font-size: 40px;
+    padding-top: 10px;
+    padding-right: 5px;
+    color: #4387bf;
+}
+.body-text a    {
+    text-decoration: none;
+    color: #4387bf;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.funny, .friends {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.friends p {
+    padding-top: 30px;
+}
+.friends img {
+    padding-top: 10px;
+}
+
+/* older-post */
+
+.older-posts {
+    background-color: #4387bf;
+    height: 32px;
+    width: 120px;
+    line-height: 30px;
+    text-align: center;
+    /* margin-left: 9px; */
+    margin-top: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    font-weight: 600;
+}
+
+.return {
+    background-color: #4387bf;
+    height: 32px;
+    width: 120px;
+    line-height: 30px;
+    text-align: center;
+    /* margin-left: 9px; */
+    margin-top: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: 'Open Sans',sans-serif;
+    color: white;
+    font-weight: 600;
+}
